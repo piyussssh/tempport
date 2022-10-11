@@ -10,10 +10,10 @@ import {
 
 function Conthome() {
   return (
-    <>
+    
       <div className="container d-f a-c" id="contact">
         <div className="contactform-cont d-f jc-c a-c">
-          <form>
+          <form action="https://formsubmit.co/mvsr1303@gmail.com" method="POST">
             <input
               type="text"
               id="firstname"
@@ -21,6 +21,7 @@ function Conthome() {
               placeholder="Full Name"
             />
             <br />
+            <input type="hidden" name="_next" value="http://localhost:3000/" />
             <input type="email" id="email" name="email" placeholder="Email" />
             <br />
             <textarea
@@ -68,7 +69,7 @@ function Conthome() {
           </div>
         </div>
       </div>
-    </>
+   
   );
 }
 export default Conthome;
