@@ -13,21 +13,21 @@ function Conthome() {
     
       <div className="container d-f a-c" id="contact">
         <div className="contactform-cont d-f jc-c a-c">
-          <form action="https://formsubmit.co/mvsr1303@gmail.com" method="POST">
+          <form action="https://formsubmit.co/mvps1862@gmail.com" method="POST">
             <input
               type="text"
               id="firstname"
-              name="firstname"
+              name="Name"
               placeholder="Full Name"
             />
             <br />
-            <input type="hidden" name="_next" value="http://localhost:3000/" />
-            <input type="email" id="email" name="email" placeholder="Email" />
+            <input type="hidden" name="_next" value="http://localhost:3000/#contact" />
+            <input type="email" id="email" name="Email ID" placeholder="Email" />
             <br />
             <textarea
               type="text"
               id="message"
-              name="message"
+              name="Message"
               placeholder="Type message here..."
             ></textarea>
             <br />
